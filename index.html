@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ravisha's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    #intro {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: white;
+      font-size: 8rem;
+      z-index: 9999;
+      transition: opacity 0.5s ease;
+    }
+  </style>
+</head>
+<body>
+  <div id="intro">Hello</div>
+
+  <div id="main-content" style="display: none;">
+    <header class="header">
+    <a href="#home" class="logo"><span>Ravisha Shrivastava</span></a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#e_a">Experience & Achievement</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hey, I'm <span>Ravisha</span></h1>
+      <h3 class="text-animation">I'm a <span id="typing-text"></span><span class="cursor"></span></h3>
+      <p>I’m passionate about tech innovation, growth, and building ideas that make a real impact. Welcome to my portfolio where I showcase my projects and journey!</p>
+      <div class="btn-group">
+        <a href="#contact" class="btn">Contact</a>
+        <a href="/photos/Ravisha Shrivastava resume.pdf" class="btn">Download CV</a>
+      </div>
+    </div>
+    <div class="home-img">
+      <img src="/photos/ravisha.jpg" alt="Ravisha's Photo" />
+    </div>
+  </section>
+  <section class="education" id="education">
+  <h2 class="heading">Education</h2>
+  <div class="timeline">
+    
+    <div class="container left">
+      <year class="div"><strong>2019-20</strong></year>
+      <div class="content">
+        <h3>St. Francis Senior Secondary School - 10th</h3>
+        <p>Completed 10th in 2020 from Bilaspur, Chhattisgarh, under the Central Board of Secondary Education(CBSE).</p>
+      </div>
+    </div>
+    <div class="container right">
+      <year class="div"><strong>2020-23</strong></year>
+      <div class="content">
+        <h3>Government Polytechnic College – Civil Engineering</h3>
+        <p>Completed Diploma in Civil Engineering from Bilaspur, Chhattisgarh, under Chhattisgarh Swami Vivekanand Technical University (CSVTU).</p>
+      </div>
+    </div>
+    <div class="container left">
+      <year class="div"><strong>2021-2022</strong></year>
+      <div class="content">
+        <h3>Government Girls School - 12th</h3>
+        <p>Completed 12th in 2022 from Bilaspur, Chhattisgarh, under the Chhattisgarh Board of Education(CG Board).</p>
+      </div>
+    </div>
+
+    <div class="container right">
+      <year class="div"><strong>2022-26</strong>></year>
+      <div class="content">
+        <h3>Indian Institute of Technology Madras (IIT-M) – B.S. in Data Science</h3>
+        <p>Currently pursuing a Bachelor of Science in Data Science at IIT Madras, with strong interests in Artificial Intelligence, Machine Learning, and emerging technologies.</p>
+      </div>
+    </div>
+    <div class="container left">
+      <year class="div"><Strong>2023-26</Strong></year>
+      <div class="content">
+      <h3>Anurag University – B.Tech in Computer Science (Lateral Entry)</h3>
+      <p>Currently pursuing a B.Tech in Computer Science from Anurag University, Hyderabad, Telangana, with a strong focus on software development, AI, and data-driven technologies.</p>
+      </div>
+
+  </div>
+</section>
+  <section class="skills" id="skills">
+  <h2 class="heading">My Skills</h2>
+  
+  <div class="skills-grid">
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+      <p>Python</p>
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+      <p>Java</p>
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql">
+      <p>mysql</p>
+    </div>
+    <div class="skill-item">
+<img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" alt="Artificial Intelligence" width="55">
+  <p>AI/ML</p>
+  </div>
+    <div class="skill-item">
+      <img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" alt="Excel">
+      <p>Excel</p>
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+      <p>HTML</p>
+    </div>
+    <div class="skill-item">
+      <img src="https://img.icons8.com/color/48/tableau-software.png" alt="Tableau">
+      <p>Tableau</p>
+    </div>
+    <div class="skill-item">
+    <img src="https://img.icons8.com/color/48/power-bi.png" alt="Power BI">
+      <p>Power BI</p>
+      
+    </div>
+      <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+      <p>CSS</p>
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+      <p>JavaScript</p>
+    </div>
+    <div class="skill-item">
+  <img src="https://img.icons8.com/fluency/96/mind-map.png" alt="Problem Solving">
+  <p>Problem Solving</p>
+</div>    
+    <div class="skill-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" style="background-color:white; padding:10px; border-radius:10px;" width="55">
+      <p>GitHub</p>
+    </div>
+</section>
+<section class="projects" id="projects">
+  <h2 class="heading">My Projects</h2>
+  <div class="projects-container">
+    
+    <div class="project-card">
+      <div class="project-title">Crop Yield Prediction</div>
+      <div class="project-description">
+        This project uses polynomial regression to predict crop yield (quintals/acre) using agricultural data, capturing complex patterns with non-linear modeling.
+      </div>
+      <a href="https://github.com/RavishaShrivastava/Data-Science-Projects/tree/main/Crop-Yield-Prediction" target="_blank" class="project-link">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">Customer Lifetime Value Analysis</div>
+      <div class="project-description">
+        Analyzed customer LTV to optimize marketing and retention strategies. Identified high-value segments using Kaggle data for smarter business decisions.
+      </div>
+      <a href="https://github.com/RavishaShrivastava/Data-Analysis-Projects/tree/dbb252e919d289101115bfe8131e0efc8cc58dac/Customer%20Lifetime%20Value%20Analysis" target="_blank" class="project-link">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">Stock Market Portfolio Optimization</div>
+      <div class="project-description">
+        Built an optimized portfolio using MPT. Analyzed returns, risk, and diversification to find the best stock combinations using financial metrics.
+      </div>
+      <a href="https://github.com/RavishaShrivastava/Data-Analysis-Projects/tree/main/Stock-Market-Portfolio-Optimization" target="_blank" class="project-link">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">HomeEase - Service App</div>
+      <div class="project-description">
+        Developed an app to connect users with trusted service providers for home tasks. Features include booking, payments, real-time tracking, and reviews.
+      </div>
+      <a href="https://github.com/RavishaShrivastava/HomeEase-A-household-service-provider-app" target="_blank" class="project-link">View Project</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="certificates" id="certificates">
+  <h2 class="heading">Certificates</h2>
+  <div class="slider">
+  <div class="card">
+    <div class="image-container">
+      <img src="/photos/excel udemy.jpg" alt="Certificate Image" />
+    </div>
+    <div class="cont">
+      <div class="title">Microsoft Excel: Beginner to Advanced in Animation + AI</div>
+      <div class="from"><strong>FROM: Udemy</strong></div>
+      <div class="description">
+        Learned data entry automation, formula building, pivot tables, dashboards, charts, conditional formatting, and AI-enhanced Excel features with animation visualizations.
+      </div>
+      <a href="/photos/excel udemy.jpg" target="_blank">View Certificate</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="image-container">
+      <img src="/photos/data analysis acc.jpg" alt="Certificate Image" />
+    </div>
+    <div class="cont">
+      <div class="title">Data Analytics and Visualization Job Simulation</div>
+      <div class="from"><strong>FROM: Forage (Accenture)</strong></div>
+      <div class="description">
+        Completed a hands-on job simulation focused on cleaning, analyzing, and visualizing business data using Excel and Power BI. Gained real-world experience in delivering data-driven insights to support business decisions.
+      </div>
+      <a href="/photos/data analysis acc.jpg" target="_blank">View Certificate</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="image-container">
+      <img src="/photos/google data analysis.jpg" alt="Certificate Image" />
+    </div>
+    <div class="cont">
+      <div class="title"> Google Data Analytics Professional Certificate</div>
+        <div class="from"><strong>FROM: Coursera</strong></div>
+      <div class="description">
+        Developed foundational data analytics skills including cleaning, analysis, and visualization using spreadsheets, SQL, and R. Emphasized real-world problem solving and decision making.
+      </div>
+      <a href="/photos/google data analysis.jpg" target="_blank">View Certificate</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="image-container">
+      <img src="/photos/powerbi.jpg" alt="Certificate Image" />
+    </div>
+    <div class="cont">
+      <div class="title">Microsoft PowerBI for Business Analytics and Intelligence</div>
+      <div class="from"><strong>FROM: Udemy</strong></div>
+      <div class="description">
+        Build interactive dashboards, analyze, and create visual reports using Power BI. Gained practical skills in business intelligence and data storytelling for informed decision-making.
+      </div>
+      <a href="/photos/powerbi.jpg" target="_blank">View Certificate</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="image-container">
+      <img src="/photos/prompt.png" alt="Certificate Image" />
+    </div>
+    <div class="cont">
+      <div class="title">Prompt Engineering for Developers</div>
+        <div class="from"><strong>FROM: Deep Learning AI</strong></div>
+      <div class="description">
+        Explored advanced techniques to craft effective AI prompts for tools like ChatGPT. Learned best practices in prompt design for tasks such as coding, summarization, and language generation.
+      </div>
+      <a href="/photos/prompt.png" target="_blank">View Certificate</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="image-container">
+      <img src="/photos/tableau.jpg" alt="Certificate Image" />
+    </div>
+    <div class="cont">
+      <div class="title">Tableau Workshop</div>
+            <div class="from"><strong>FROM: Anurag University</strong></div>
+      <div class="description">
+        Gained hands-on experience in creating dashboards and visualizing data using Tableau. Learned to turn complex datasets into clear, interactive insights for business use.
+      </div>
+      <a href="/photos/tableau.jpg" target="_blank">View Certificate</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="image-container">
+      <img src="/photos/techhack3.jpg" alt="Certificate Image" />
+    </div>
+    <div class="cont">
+      <div class="title">Tech Hack #3 </div>
+            <div class="from"><strong>FROM: Anurag University</strong></div>
+      <div class="description">
+        Collaborated in a high-energy, team-based coding competition to build innovative tech solutions. Strengthened problem-solving, design thinking, and rapid development skills.
+      </div>
+      <a href="/photos/techhack3.jpg" target="_blank">View Certificate</a>
+    </div>
+  </div> 
+  <div class="card">
+    <div class="image-container">
+      <img src="/photos/web club.jpg" alt="Certificate Image" />
+    </div>
+    <div class="cont">
+      <div class="title">Event WebTrek</div>
+            <div class="from"><strong>FROM: Anurag University</strong></div>
+      <div class="description">
+        Learned the fundamentals of React.js including components, props, and state management. Built dynamic, responsive user interfaces during a hands-on coding session.
+
+      </div>
+      <a href="/photos/web club.jpg" target="_blank">View Certificate</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="image-container">
+      <img src="/photos/workshop chatgpt.jpg" alt="Certificate Image" />
+    </div>
+    <div class="cont">
+      <div class="title">AI Tools Workshop</div>
+      <div class="from"><strong>FROM: Be10x</strong></div>
+      <div class="description">
+        Explored trending AI tools and platforms to enhance productivity and creativity. Learned practical use cases for AI in content generation, automation, and problem-solving.
+
+
+      </div>
+      <a href="/photos/workshop chatgpt.jpg" target="_blank">View Certificate</a>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="e_a" id="e_a">
+  <h2 class="heading-1">Experience & Achievement</h2>
+  <div class="all-item">
+    <div class="itemss">
+      <div class="box1">
+        <div class="vertical-text">Experience</div>
+      </div>
+      <div class="box2"><img src="/photos/aicte-internship.jpg" alt="img"></div>
+      <div class="box3">
+        <h4 class="head">Internship at AICTE</h4><br>
+        <p>Completed a government-certified internship in Artificial Intelligence under AICTE. Gained hands-on experience in machine learning models, data preprocessing, and ethical AI practices.</p>
+      </div>
+    </div>
+    <div class="itemss">
+      <div class="box1">
+        <div class="vertical-text">Achievement</div>
+      </div>
+      <div class="box2"><img src="/photos/visionova top 15.png" alt="img"></div>
+      <div class="box3">
+        <h4 class="head">Top 15 finalist</h4><br>
+        <p>Selected as one of the Top 15 finalists in Visionova, a prestigious national-level hackathon hosted by Anurag University.Built a scalable tech solution under tight deadlines, showcasing innovation and team coordination</p>
+      </div>
+    </div>
+    <div class="itemss">
+      <div class="box1">
+        <div class="vertical-text">Achievement</div>
+      </div>
+      <div class="box2"><img src="/photos/bdm-topper.jpg" alt="img"></div>
+      <div class="box3">
+        <h4 class="head">Business Data Management Topper</h4><br>
+        <p>Secured the Topper Badge in Business Data Management course.
+Demonstrated strong analytical thinking, SQL proficiency, and business data interpretation.</p>
+      </div>
+    </div>
+   
+    <div class="itemss">
+      <div class="box1">
+        <div class="vertical-text">Achievement</div>
+      </div>
+      <div class="box2"><img src="/photos/tejas.jpg" alt="img"></div>
+      <div class="box3">
+        <h4 class="head">3rd in Largest Project Expo</h4><br>
+        <p>Won 3rd prize among hundreds of teams in Anurag University's Largest Project Expo.
+Presented a unique and impactful tech project, appreciated for creativity and problem-solving.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+<section class="contact">
+  <h2 class="heading" id="contact">Contact Me</h2>
+  <div class="info-i">
+    <p>I love meeting people who are passionate about learning, creating, and growing. If that sounds like you, don’t hesitate to connect through email or LinkedIn! Let’s inspire each other and make great things happen.</p>
+  </div>
+  
+  <div class="info-item">
+    <div class="contact-line"><i class="bx bx-user"></i> <span>Ravisha Shrivastava</span></div>
+    <div class="contact-line"><i class="bx bx-map"></i> <span>Hyderabad, Telangana</span></div>
+    <div class="contact-line"><i class="bx bx-envelope"></i> 
+      <a href="mailto:ravishashrivastava18@gmail.com?subject=Hello&body=I wanted to connect with you...">ravishashrivastava18@gmail.com</a>
+    </div>
+    <div class="contact-line"><i class="bx bx-time"></i> <span>Available 24/7</span></div>
+    <div class="contact-line"><i class="fa fa-linkedin"></i> 
+      <a href="https://www.linkedin.com/in/ravisha-shrivastava-220392324/">My LinkedIn Profile</a>
+    </div>
+    <div class="contact-line"><i class="fa fa-github"></i> 
+      <a href="https://github.com/RavishaShrivastava">My GitHub Profile</a>
+    </div>
+    <div class="contact-line"><i class="fa fa-code"></i> 
+      <a href="https://www.hackerrank.com/profile/ravishashrivast1">HackerRank Profile</a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- BEGIN: Combined website.html body content -->
+    <!-- Copy full content from <header> to end of <body> tag from website.html here -->
+    <!-- For brevity, assume the full content is already placed -->
+  </div>
+
+  <script>
+    if (localStorage.getItem("fromIntro") === "true") {
+      document.body.classList.add("page-enter");   // start hidden off‑screen
+      localStorage.removeItem("fromIntro");        // consume the flag
+
+      /* kick off the CSS transition on the next tick */
+      setTimeout(() => {
+        document.body.classList.add("page-enter-active");
+      }, 100);                                      
+    }
+    const intro = document.getElementById("intro");
+    const mainContent = document.getElementById("main-content");
+    const messages = ["Hello", "नमस्ते", "నమస్తే", "Bonjour"];
+    let index = 0;
+
+    function showNext() {
+      if (index < messages.length) {
+        intro.style.animation = "none";
+        void intro.offsetWidth;
+        intro.textContent = messages[index];
+        intro.style.animation = "slideInUp 1s ease forwards";
+        index++;
+        setTimeout(showNext, 1000);
+      } else {
+        intro.classList.add("slideOutUp");
+        setTimeout(() => {
+          intro.style.display = "none";
+          mainContent.style.display = "block";
+          document.body.classList.add("page-enter");
+          setTimeout(() => document.body.classList.add("page-enter-active"), 50);
+        }, 560);
+      }
+    }
+
+    window.onload = () => setTimeout(showNext, 1000);
+
+    // Responsive navbar toggle
+    let menuIcon = document.querySelector("#menu-icon");
+    let navbar = document.querySelector(".navbar");
+    if (menuIcon && navbar) {
+      menuIcon.onclick = () => {
+        navbar.classList.toggle("active");
+      };
+    }
+
+    // Typing effect
+    const typingText = document.getElementById("typing-text");
+    const words = ["Tech Enthusiast", "Software Engineer", "Data Scientist", "Data Analyst"];
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+
+    function typeEffect() {
+      if (!typingText) return;
+      const currentWord = words[wordIndex];
+      const currentText = currentWord.substring(0, charIndex);
+      typingText.textContent = currentText;
+
+      if (!isDeleting && charIndex < currentWord.length) {
+        charIndex++;
+        setTimeout(typeEffect, 100);
+      } else if (isDeleting && charIndex > 0) {
+        charIndex--;
+        setTimeout(typeEffect, 50);
+      } else {
+        isDeleting = !isDeleting;
+        if (!isDeleting) wordIndex = (wordIndex + 1) % words.length;
+        setTimeout(typeEffect, 1000);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", typeEffect);
+  </script>
+</body>
+</html>
